@@ -1,6 +1,7 @@
+import './Result.css'
 const Result=(props)=>{
     return(
-        <div >
+        <div className="Result" >
             <p>{props.value}</p>
         </div>
     )

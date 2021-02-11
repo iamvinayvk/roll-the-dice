@@ -21,14 +21,15 @@ function App() {
 
   return (
     <div className="App">
+      <p>Click on The Dice to Roll:</p>
         
        <button onClick={setResultHandler}><Dice  onRoll={(value)=>{
          diceValue=value;
-       }} rollingTime={1000} size={50} />
+       }} rollingTime={1000} size={250} />
       <Result value={currentResult} />
-      {/* <button onClick={setResultHandler}>Roll The Dice</button> */}
+     
       </button>
-      {/* <button onClick={setResultHandler}>Roll The Dice</button> */}
+    
     </div>
   );
 }

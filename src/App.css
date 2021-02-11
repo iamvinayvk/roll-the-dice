@@ -1,0 +1,16 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    /* padding: 15rem ; */
+}
+button{
+    background-color: aqua;
+    border: 0;
+}
+p{
+    font-size: 2rem;
+    margin :4rem;
+}
